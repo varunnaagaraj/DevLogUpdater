@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+  position: relative;
+  color: black;
+  height: 97vh;
+  width: 100vw;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.ant-picker-panel {
+  background-color: ivory !important;
+}

@@ -1,0 +1,13 @@
+.settingsIcon {
+  height: 60px;
+}
+
+.userIcon {
+  height: 60px;
+}
+
+.userIcon:hover .settingsIcon:hover {
+  cursor: pointer;
+  z-index: 2;
+  scale: 1.2;
+}

@@ -1,0 +1,22 @@
+body {
+  position: relative;
+  color: black;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.card {
+  width: '250px';
+  background-color: 'white';
+  height: '30vh';
+  margin: '25px';
+  border: '1px solid rgba(0, 0, 0, 0.1)';
+  border-radius: '10px';
+}
+
+.ant-card-body {
+  padding: 10px !important;
+}
